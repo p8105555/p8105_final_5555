@@ -1,0 +1,81 @@
+---
+title: "p8015_final_5555"
+output: html_document
+date: "2023-11-10"
+---
+
+Team registration and proposal
+
+The group members (names and UNIs)
+Yuxuan Wang (yw3995), Shihui Peng (sp4170), Ruiqi Xue (rx2236), Jingyu Wang (jw4348), Jiangyuan Zhu (jz3573) 
+
+The tentative project title
+
+Substances Use and Their Relationship with Mental Health Conditions Considering  Demographic Features
+
+The motivation for this project
+
+Substance use, both illegal and legal, leads to numerous health problems. We will analyze data from the NHANES to examine the prevalence and relationship between substance use, socio-economic factors, and related health outcomes. For this project, we plan to focus substance use problems on alcohol consumption, drug use, and smoking behavior, across years.
+We plan to (1)investigate the relationship between substance use and sleep disorders, depression, and other health-related factors; (2)analyze demographic features such as age, gender, education, and occupation can help identify high-risk groups susceptible to substance use issues. We want to provide the public a comprehensive understanding of the interplay between lifestyle choices and health outcomes, and a holistic view of people's health profiles. These can enhance the effectiveness of public health campaigns.
+
+The intended final products
+
+We intend to create a website containing various figures, showing different demographic groups' drinking frequency, the association between alcohols and otter substances use. drinking habits and health conditions, where readers can search for information of their interest. 
+If time permits, we also intend to build a user-interactive page to let users filter the information on charts and plots. (R shiny)
+The anticipated data sources
+NHANES 2017-March 2020 Pre-pandemic
+https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2017-2020
+https://wwwn.cdc.gov/nchs/nhanes/Default.aspx
+
+The planned analyses / visualizations / coding challenges
+
+EDA:
+Demographics vs. substances use vs. health conditions
+Use demographic data to contrast group differences, multi-panel plots
+Linear regression:
+	Fit model to investigate associations between substances use and multiple disorders
+	Visualization:
+Line chart with time series data; scatterplot with demographics; histograms with     group comparisons
+
+Coding challenges: 
+
+Combine multiple small datasets into one dataframe (joining by id);
+Tidy datasets for potential time-series data;
+Arrange multiple related plots into one dashboard;
+Interactive operations
+
+The planned timeline
+
+Nov 9 - Group meeting for topic and general plan 
+Nov 11 - Submit Proposal
+Nov. 13-17 - Group review meeting for plan details and blocks
+Nov. 18 - Data draft (clean, analysis, plot*7)
+Nov. 25 - Report draft (Motivation, Related work, Initial questions, Data, Exploratory analysis, Additional analysis, Discussion)
+Nov. 29 - Submit final Report (due Dec. 09)
+Dec. 02 - Two-minute video with explanatory spoken audio explaining
+Dec. 06 - Submit webpage overview of project with video (due Dec. 09)
+Dec. 09 - Peer assessment
+Dec. 14 - “in class” discussion
+
+Variables:
+Substance use
+alcohol use – NHANES – questionnaire – alcohol use
+drug use – NHANES – questionnaire – drug use
+smoking / cigarette use  - NHANES - questionnaire – smoking - cigarette use
+Mental health- 
+sleep disorder – NHANES – questionnaire – Sleep Disorders - 
+poor appetite – NHANES – questionnaire – Mental Health - Depression Screener – DPQ050
+suicide tendency – NHANES – questionnaire – Mental Health - Depression Screener – DPQ090
+negative feeling – NHANES – questionnaire – Mental Health - Depression Screener – DPQ020
+Demographic characteristics
+participants’ unique ID – NHANES – demo – seqn
+working time- NHANES-occupation- OCQ210 
+BMI- NHANES - examination – bmx
+income - NHANES-questionnaire- income 
+gender - NHANES – demo – riagendr
+age (in year)  - NHANES – demo – ridageyr
+education level  - NHANES – demo – DMDEDUC2 (adult 20+), DMDEDUC3 (child/youth 6 -19)
+race  - NHANES – demo – ridreth3
+marital status - NHANES – demo - DMDMARTL
+annual family income - NHANES – demo - INDFMIN2
+physical actively - NHANES – questionnaire – Physical activity
