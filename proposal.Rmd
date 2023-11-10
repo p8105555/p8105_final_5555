@@ -75,4 +75,3 @@ project_timeline =
 
 project_timeline |> knitr::kable()
 ```
-
