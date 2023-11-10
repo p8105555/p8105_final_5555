@@ -94,4 +94,3 @@ NHANES 2017-March 2020 Pre-pandemic
 | Dec.2     | Two-minute video with explanatory spoken audio explaining                                                               |
 | Dec.6     | Submit webpage overview of project with video (due Dec. 09)                                                             |
 | Dec.9     | Peer assessment                                                                                                         |
-| Dec.14    | “in class” discussion                                                                                                   |
