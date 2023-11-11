@@ -19,15 +19,17 @@ Considering Demographic Features**
 problems. In this project, we propose to examine the prevalence and
 relationship between substance use (specifically focus on alcohol
 consumption, drug use, and smoking behavior), socio-economic factors,
-and related health outcomes, across years.
+and related health outcomes across years.
 
 ## Our plans
 
-We plan to (1)investigate the relationship between substance use and
-sleep disorders, depression, and other health-related factors;
-(2)analyze demographic features such as age, gender, education, and
-occupation can help identify high-risk groups susceptible to substance
-use issues.
+We plan to
+
+- Investigate the relationship between substance use and sleep
+  disorders, depression, and other health-related factors;
+- Analyze demographic features such as age, gender, education, and
+  occupation can help identify high-risk groups susceptible to substance
+  use issues.
 
 ## Our expected outputs
 
@@ -41,8 +43,7 @@ public health campaigns.
 ## Website
 
 We intend to create a website containing various figures, showing
-different demographic groups’ drinking frequency, the association
-between alcohols and otter substances use. drinking habits and health
+different demographic groups’ substance use habits and their health
 conditions, where readers can search for information of their interest.
 
 ## User-interactive page
